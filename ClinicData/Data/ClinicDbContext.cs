@@ -26,7 +26,7 @@ namespace ClinicData.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
-            dbContextOptionsBuilder.UseSqlServer("Data Source=VDC01LTC2156;Initial Catalog=ClinicMngt2; Integrated Security=true;");
+            dbContextOptionsBuilder.UseSqlServer("Server=tcp:server2709.database.windows.net,1433;Initial Catalog=admin1;Persist Security Info=False;User ID=admin1;Password=password@1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
 
         }
 
